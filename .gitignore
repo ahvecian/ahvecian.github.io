@@ -1,0 +1,8 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# LibreOffice / Office temp & lock files
+.~lock.*#
+*.tmp
+~$*
