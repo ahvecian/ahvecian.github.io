@@ -4,48 +4,98 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Ángel Hernando-Veciana</title>
-<meta name="description" content="Ángel Hernando-Veciana, Professor of Economics, Universidad Carlos III de Madrid.">
+<meta name="description" content="Ángel Hernando-Veciana — Professor of Economics at Universidad Carlos III de Madrid. Research in auctions, mechanism design and information economics.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-  <div class="header-inner">
-    <div class="site-title"><a href="index.html">Ángel Hernando-Veciana</a></div>
-  </div>
-  <nav>
-    <a href="index.html" class="active">Main page</a>
-    <a href="research.html">Research</a>
-    <a href="teaching.html">Teaching</a>
-    <a href="cv.html">CV</a>
-    <a href="other-activities.html">Other activities</a>
-  </nav>
-</header>
-
-<main>
-  <div class="profile">
-    <img class="profile-photo" src="profile.jpg" alt="Ángel Hernando-Veciana"
-         onerror="this.style.visibility='hidden'">
-    <div class="profile-info">
-      <p class="name">Prof. Ángel Hernando-Veciana</p>
-      <p class="role">Professor of Economics</p>
-      <p class="contact-line"><strong>Universidad Carlos III de Madrid</strong></p>
-      <p class="contact-line">Calle Madrid 126</p>
-      <p class="contact-line">Getafe (Madrid) 28903, Spain</p>
-      <p class="contact-line">Email: <a href="mailto:angel.hernando@uc3m.es">angel.hernando@uc3m.es</a></p>
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="index.html">Ángel Hernando-Veciana</a>
+    <div class="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="research.html">Research</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="cv.html">CV</a>
+      <a href="other-activities.html">Activities</a>
     </div>
   </div>
+</nav>
 
-  <h2>About</h2>
-  <p>I am a Professor of Economics at Universidad Carlos III de Madrid. My research
-  is in microeconomic theory, with a focus on auctions, mechanism design, and
-  information economics. You can find my published work and working papers on the
-  <a href="research.html">Research</a> page, details of my courses on the
-  <a href="teaching.html">Teaching</a> page, and my
-  <a href="cv.html">CV</a> here.</p>
+<main>
+  <section class="hero">
+    <div class="avatar-wrap">
+      <img class="avatar" src="profile.jpg" alt="Ángel Hernando-Veciana"
+           onerror="this.outerHTML='&lt;div class=&quot;avatar-fallback&quot;&gt;ÁHV&lt;/div&gt;'">
+    </div>
+    <div class="hero-body">
+      <h1 class="hero-name">Ángel Hernando-Veciana</h1>
+      <p class="hero-role">Professor of Economics</p>
+      <p class="hero-affil">Universidad Carlos III de Madrid · Getafe (Madrid), Spain</p>
+      <div class="contacts">
+        <a href="mailto:angel.hernando@uc3m.es">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 5L2 7"/></svg>
+          angel.hernando@uc3m.es
+        </a>
+        <a href="cv.pdf">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>
+          Curriculum Vitae
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <h2 class="section">About</h2>
+  <div class="prose">
+    <p>I am a Professor of Economics at Universidad Carlos III de Madrid. My research is in
+    microeconomic theory, with a focus on auctions, mechanism design and information
+    economics. My work has appeared in journals including the <em>Journal of Economic
+    Theory</em>, <em>Games and Economic Behavior</em> and the <em>Review of Financial
+    Studies</em>.</p>
+    <p>I currently direct the Master of Industrial Economics and Markets (MIEM) and teach
+    Principles of Economics, alongside massive open online courses on the fundamentals of
+    micro- and macroeconomics.</p>
+  </div>
+
+  <h2 class="section">Research interests</h2>
+  <div class="tags">
+    <span class="tag">Auctions</span>
+    <span class="tag">Mechanism Design</span>
+    <span class="tag">Information Economics</span>
+    <span class="tag">Industrial Organization</span>
+    <span class="tag">Microeconomic Theory</span>
+  </div>
+
+  <h2 class="section">Explore</h2>
+  <div class="cards">
+    <a class="card" href="research.html">
+      <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></div>
+      <h3>Research</h3>
+      <p>Published papers, book chapters and working papers.</p>
+    </a>
+    <a class="card" href="teaching.html">
+      <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></div>
+      <h3>Teaching</h3>
+      <p>Current and past courses, and online MOOCs.</p>
+    </a>
+    <a class="card" href="cv.html">
+      <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M16 13H8M16 17H8M10 9H8"/></svg></div>
+      <h3>CV</h3>
+      <p>Full curriculum vitae, viewable and downloadable.</p>
+    </a>
+    <a class="card" href="other-activities.html">
+      <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div>
+      <h3>Activities</h3>
+      <p>Seminars, workshops and outreach.</p>
+    </a>
+  </div>
 </main>
 
 <footer>
-  &copy; Ángel Hernando-Veciana · Universidad Carlos III de Madrid
+  <span>© Ángel Hernando-Veciana</span>
+  <span>Universidad Carlos III de Madrid</span>
 </footer>
 </body>
 </html>

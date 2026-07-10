@@ -4,32 +4,44 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>CV · Ángel Hernando-Veciana</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-  <div class="header-inner">
-    <div class="site-title"><a href="index.html">Ángel Hernando-Veciana</a></div>
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="index.html">Ángel Hernando-Veciana</a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="research.html">Research</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="cv.html" class="active">CV</a>
+      <a href="other-activities.html">Activities</a>
+    </div>
   </div>
-  <nav>
-    <a href="index.html">Main page</a>
-    <a href="research.html">Research</a>
-    <a href="teaching.html">Teaching</a>
-    <a href="cv.html" class="active">CV</a>
-    <a href="other-activities.html">Other activities</a>
-  </nav>
-</header>
+</nav>
 
 <main>
-  <h1>CV</h1>
-  <p><a href="cv.pdf">Download my CV (PDF)</a></p>
+  <h1 class="page-title">Curriculum Vitae</h1>
+  <p class="page-intro">Preview below, or download the full PDF.</p>
+
+  <div class="cv-actions">
+    <a class="btn" href="cv.pdf" download>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><path d="M12 15V3"/></svg>
+      Download CV (PDF)
+    </a>
+  </div>
+
   <object class="cv-frame" data="cv.pdf" type="application/pdf">
     <p>Your browser cannot display the PDF inline. <a href="cv.pdf">Download the CV here.</a></p>
   </object>
 </main>
 
 <footer>
-  &copy; Ángel Hernando-Veciana · Universidad Carlos III de Madrid
+  <span>© Ángel Hernando-Veciana</span>
+  <span>Universidad Carlos III de Madrid</span>
 </footer>
 </body>
 </html>
